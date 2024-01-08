@@ -215,6 +215,18 @@ def mainfunc():
 	fpr = 0.01 #the FPR of the BF
 	countingTableHash = 4 #the number of CT hash functions
 
+
+	#IF TYPE IS BENIGN, just send benign flows and then capture the growth of the filter. 
+
+	if atkben == 2:
+		print("Benign Mode")
+
+
+	#IF TYPE IS ATTACK, Send benign flows + attack flows and then capture the growth of the filter. 
+
+
+
+
 	os.exit();
 
 
